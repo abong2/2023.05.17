@@ -1,0 +1,29 @@
+@charset "utf-8";
+.wrap{
+    width: 300px;
+    height: 50px;
+    margin: 30px auto;
+    background-color: rgb(236, 166, 166);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 50px;
+    perspective: 100px;
+    transition: all 2s;
+    }
+    .wrap:hover{
+        color: blueviolet;
+        transform: skewX(30deg) scale(2) rotate(720deg);
+    }
+.cu{
+    width: 100px;
+    height: 100px;
+    margin: 30px auto;
+    background-color: rgb(193, 193, 201);
+    border: 2px solid black;
+    border-radius: 50%;
+    transition: all 2s;
+}
+.cu:hover{
+    background-color: cornflowerblue;
+    border-radius: 20px;
+}    
